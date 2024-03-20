@@ -316,6 +316,22 @@ h3.genre__title {
     padding-bottom: 2em;
 }
 
+span.number {
+    font-size: 2rem;
+    font-weight: var(--fw-thick);
+    color: var(--clr-secondary-light);
+    
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--clr-white);
+    margin-bottom: .375em;
+}
+
 .movie__header {
     margin-top: 0;
     font-size: var(--fs-small);
